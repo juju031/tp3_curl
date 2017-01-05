@@ -1,5 +1,5 @@
 {
-    "name": "juju/curl",
+    "name": "tp3/curl",
     "description": "thinkphp 3.2.x curl",
     "type": "thinkphp-extension",
     "license": "MIT",
