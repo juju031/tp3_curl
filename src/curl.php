@@ -6,9 +6,7 @@ class Curl
 	public function get($url,$referer = '')
 	{
 		//判断curl是否存在
-		$result = function_exists('curl_init');
-
-		if($result)
+		if(function_exists('curl_init'))
 		{
 			$ch = curl_init();    
 		    $timeout = 60;
@@ -28,9 +26,7 @@ class Curl
 
 	public function post($url,$post_data)
 	{
-		$result = function_exists('curl_init');
-
-		if($result)
+		if(function_exists('curl_init'))
 		{
 			$ch = curl_init();    
 		    $timeout = 60;
