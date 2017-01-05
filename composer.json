@@ -1,0 +1,21 @@
+{
+    "name": "juju/curl",
+    "description": "thinkphp 3.2.x curl",
+    "type": "thinkphp-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "juju",
+            "email": "3417919@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "juju\\curl\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
